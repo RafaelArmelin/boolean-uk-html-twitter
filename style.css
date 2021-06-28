@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns:  0.6fr 1fr 0.6fr;
+    border: 2px solid red;
+}
+
+.grid-item-left{
+    margin-left: 110px;
+    border: 2px solid red;
+}
+
+.grid-item-main{
+    border: 2px solid red;
+}
+
+.grid-item-right{
+    margin-left: 30px;
+    margin-right: 100px;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+.twitter-logo{
+    margin-top: 20px;
+}
+
+.nav-list li,
+a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.nav-list a{
+    padding-left: 1.5rem;
+}
+
+.nav-list ul{
+    padding: 0;
+}
+
+.tweet-bt{
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: lightskyblue;
+    border-radius: 50px;
+    font-size: 1rem;
+}
