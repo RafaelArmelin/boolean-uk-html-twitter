@@ -3,27 +3,84 @@
 }
 body{
     margin: 0;
+    font-family: sans-serif;
+    
 }
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.center-lg {
+    max-width: 1200px;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+.height_container{
+    height: 100vh;
+}
+
 .grid-container{
     display: grid;
     grid-template-columns:  0.6fr 1fr 0.6fr;
-    border: 2px solid red;
+    gap: 2rem;
 }
 
+.two-column-grid{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+}
+
+.three_column_grid{
+    display: grid;
+    grid-template-columns: 40px 1fr 40px;
+    gap: 10px;
+}
+
+.two-row-grid{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 50px;
+}
+
+.avatar{
+    border-radius: 50%;
+}
+
+.profile-info{
+    text-align: left;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.profile-info p{
+    margin: 2px;
+}
+
+.feed li{
+    min-height: 200px;
+    border: 1px solid rgb(239, 243, 244);
+}
+
+.feed img{
+    margin-top: 10.72px;
+}
 .grid-item-left{
-    margin-left: 110px;
-    border: 2px solid red;
+   
 }
 
 .grid-item-main{
-    border: 2px solid red;
+    border: 1px solid rgb(239, 243, 244);
 }
 
 .grid-item-right{
-    margin-left: 30px;
-    margin-right: 100px;
     padding: 10px;
-    border: 2px solid red;
+    border: 1px solid rgb(239, 243, 244);
 }
 
 .twitter-logo{
@@ -41,19 +98,43 @@ a{
     font-weight: bold;
 }
 
-.nav-list a{
-    padding-left: 1.5rem;
-}
-
 .nav-list ul{
     padding: 0;
 }
 
-.tweet-bt{
-    width: 50px;
-    height: 50px;
+.tweet-bt {
+    width: 100%;
+    height: 48px;
     color: white;
-    background-color: lightskyblue;
-    border-radius: 50px;
+    background-color: rgb(2, 169, 244);
+    border-radius: 30px;
     font-size: 1rem;
+    border: none;
+    font-weight: bold;
+}
+
+.main-tweet-bt{
+    width: 5.5rem;
+}
+.grid-auto-column {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1.5rem;
+}
+
+.tweet-bt__justify-item{
+    justify-items: flex-end;
+}
+
+.main-text-area{
+    border: none;
+}
+.two-column-grid h1{
+    font-size: 1rem;
+}
+
+.search-text-area{
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(239, 243, 244);
 }

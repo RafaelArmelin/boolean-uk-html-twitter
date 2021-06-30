@@ -7,34 +7,183 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="grid-container">
-        <aside class="grid-item-left">
-            <div class="twitter-logo">
-                <img src="/pages/logos/twitter.png" alt="Twitter Logo" width="30px">
-            </div>
-            <nav class="nav-list">
-                <ul>
-                    <li> <img src="/pages/icons/home.png" alt="Home" width="20px"><a href="#">Home</a></li>
-                    <li> <img src="/pages/icons/explore.png" alt="Explore" width="20px"><a href="#">Explore</a></li>
-                    <li> <img src="/pages/icons/notifications.png" alt="Notifications" width="20px"><a href="#">Notifications</a></li>
-                    <li> <img src="/pages/icons/messages.png" alt="Messages" width="20px"><a href="#">Messages</a></li>
-                    <li> <img src="/pages/icons/bookmarks.png" alt="Bookmarks" width="20px"><a href="#">Bookmarks</a></li>
-                    <li> <img src="/pages/icons/lists.png" alt="Lists" width="20px"><a href="#">Lists</a></li>
-                    <li> <img src="/pages/icons/profile.png" alt="Profile" width="20px"><a href="#">Profile</a></li>
-                    <li> <img src="/pages/icons/more.png" alt="More" width="20px"><a href="#">More</a></li>
-                </ul>
-            </nav>
+    <div class="grid-container center-lg height_container">
+        <aside class=" two-row-grid grid-item-left">
             <div>
-                <a class="tweet-bt" href="#">Tweet</a>
+                <div class="twitter-logo">
+                    <img src="/pages/logos/twitter.png" alt="Twitter Logo" width="30px">
+                </div>
+                <nav class="nav-list">
+                    <ul>
+                        <li>
+                            <a class="two-column-grid" href="#">
+                                <div>
+                                    <img src="/pages/icons/home.png" alt="Home" width="20px">
+                                </div>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a class="two-column-grid" href="#">
+                                <div>
+                                    <img src="/pages/icons/explore.png" alt="Explore" width="20px">
+                                </div>
+                                Explore
+                            </a>
+                        </li><li>
+                            <a class="two-column-grid" href="#">
+                                <div>
+                                    <img src="/pages/icons/notifications.png" alt="Notifications" width="20px">
+                                </div>
+                                Notifications
+                            </a>
+                        </li><li>
+                            <a class="two-column-grid" href="#">
+                                <div>
+                                    <img src="/pages/icons/notifications.png" alt="Messages" width="20px">
+                                </div>
+                                Messages
+                            </a>
+                        </li><li>
+                            <a class="two-column-grid" href="#">
+                                <div>
+                                    <img src="/pages/icons/bookmarks.png" alt="Bookmarks" width="20px">
+                                </div>
+                                Bookmarks
+                            </a>
+                        </li><li>
+                            <a class="two-column-grid" href="#">
+                                <div>
+                                    <img src="/pages/icons/lists.png" alt="Lists" width="20px">
+                                </div>
+                                Lists
+                            </a>
+                        </li><li>
+                            <a class="two-column-grid" href="#">
+                                <div>
+                                    <img src="/pages/icons/profile.png" alt="Profile" width="20px">
+                                </div>
+                                Profile
+                            </a>
+                        </li><li>
+                            <a class="two-column-grid" href="#">
+                                <div>
+                                    <img src="/pages/icons/more.png" alt="More" width="20px">
+                                </div>
+                                More
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div>
+                <button class="tweet-bt">
+                    Tweet
+                </button>
+                </div>
             </div>
-            <div class="profile-bt">
-                <h2>avatar frame and profile here</h2>
+            <div>
+                <div>
+                    <a href="#">
+                        <div class="profile-bt three_column_grid">
+                            <div>
+                                <img class="avatar" src="/pages/icons/avatar.png" alt="Avatar Picture" width="40px">
+                            </div>
+                            <div class="profile-info">
+                                <strong><p>Rafael Armelin</p></strong>
+                                <p>@armelin_rafael</p>
+                            </div>
+                            <div>
+                                <img src="/pages/icons/more.svg" alt="More Options Icon" width="15px" height="40px">
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </aside>
-        <main class="grid-item-main"><h2>Home</h2></main>
+        <main class=" center-lg grid-item-main">
+            <header>
+                <h1>Home</h1>
+            </header>
+            <div class="two-column-grid">
+                <div>
+                    <div>
+                    <img class="avatar" src="/pages/icons/avatar.png" alt="Avatar" width="50px">
+                    </div>
+                </div>
+                <div>
+                    <form>
+                        <textarea class="main-text-area" name="" id="" cols="50" rows="3" placeholder="What's happening?"></textarea>
+                        <div class="tweet-bt__justify-item two-column-grid">
+                            <ul class="grid-auto-column">
+                                <li><img src="pages/icons/media.png" alt="Media" width="20px"></li>
+                                <li><img src="/pages/icons/gif2.png" alt="Gif" width="20px"></li>
+                                <li><img src="/pages/icons/poll.png" alt="Poll" width="20px"></li>
+                                <li><img src="/pages/icons/emoji.png" alt="Emoji" width="20px"></li>
+                                <li><img src="/pages/icons/schedule.png" alt="Schedule" width="20px"></li>
+                            </ul>
+                            <button class="main-tweet-bt tweet-bt" type="submit">Tweet</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <main>
+                <ul class="feed">
+                    <li>
+                        <div class="two-column-grid">
+                            <div>
+                                <img src="/pages/icons/avatar1.png" alt="Avatar 1" width="50px">
+                            </div>
+                            <div>
+                                <h1>name</h1>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="two-column-grid">
+                            <div>
+                                <img src="/pages/icons/avatar2.png" alt="Avatar 2" width="50px">
+                            </div>
+                            <div>
+                                <h1>name</h1>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="two-column-grid">
+                            <div>
+                                <img src="/pages/icons/avatar3.png" alt="Avatar 3" width="50px">
+                            </div>
+                            <div>
+                                <h1>name</h1>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </main>
+        </main>
         <aside class="grid-item-right">
-            <div class="search-bar">Search bar</div>
-            <div class="whats-happening">What's happening</div>
+            <div class="search-bar">
+                <form>
+                    <textarea class="search-text-area" name="" id="" cols="30" rows="2" placeholder="Search Twitter"></textarea>
+                </form>
+            </div>
+            <div>
+                <ul>
+                    <li>What's happening</li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
         </aside>
     </div>
 </body>
